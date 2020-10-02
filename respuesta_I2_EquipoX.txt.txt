@@ -1,0 +1,81 @@
+﻿a-¿ Como actualizo mi repositorio, al estado que esté el repo que hice FORK?
+
+ Se actualiza con el monado git pull [el link del repositorio del que Forkee]
+
+b- ¿Puede ALFA actualizar su FORK al estado del fork de GAMMA?
+
+Si puede actualizarlo.
+
+c- ¿Puede GAMMA actualizar su FORK al estado del fork de ALFA?
+
+Si puede actualizarlo.
+
+d- ¿Los datos que tenia en mi repositorio, editados por mi, se pierden si quiero actualizar el fork?
+
+No se pierden los datos al ser un repositorio creado y editado por mi(BETA).
+
+
+-----------------------------
+Usuario: ALFA
+	-Nombre:Nahuel  
+	-Apellido:Carbajal
+
+Comandos:
+
+
+  491  git clone https://github.com/Nahuel789/TP_SO_i2_Equipo.git
+  492  git status
+  493  git status
+  494  git add .
+  495  git status
+  496  git commit -m "Alfa commit ingreso de datos en fork"
+  497  git push
+  498  git status
+  499  git pull https://github.com/ignaciovillalba/TP_SO_i2_Equipo.git
+
+
+
+		
+-----------------------------
+Usuario: BETA
+	-Nombre:Ignacio 
+	-Apellido:Villalba
+
+Comandos:
+
+117  git clone https://github.com/ignaciovillalba/TP_SO_i2_Equipo.git
+  118  git add .
+  119  git status
+  120  git commit -m "Agregado NuevoDato.txt"
+  121  git push
+  122  git pull https://github.com/FrancoSagnella/TP_SO_i2_Equipo.git
+  123  git add .
+  124  git commit -m "Modificado respuesta_I2_Equipo101 respuesta C y D"
+  125  git push
+
+
+-----------------------------
+Usuario: GAMA
+	-Nombre:Franco 
+	-Apellido:Sagnella
+
+Comandos:
+
+325  git clone https://github.com/FrancoSagnella/TP_SO_i2_Equipo
+  326  git add .
+  327  git commit -m "GAMMA datos cargados"
+  328  git push
+  329  git pull https://github.com/ignaciovillalba/TP_SO_i2_Equipo
+  330  git add .
+  331  git commit -m "GAMMA respondio las preguntas"
+  332  git push
+
+
+
+-----------------------------
+=======
+d- ¿Los datos que tenia en mi repositorio, editados por mi, se pierden si quiero actualizar el fork?
+
+
+
+No se pierden los datos al ser un repositorio creado y editado por mi(BETA).
