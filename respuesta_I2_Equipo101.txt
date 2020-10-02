@@ -73,9 +73,3 @@ Comandos:
 
 
 -----------------------------
-=======
-d- ¿Los datos que tenia en mi repositorio, editados por mi, se pierden si quiero actualizar el fork?
-
-
-
-No se pierden los datos al ser un repositorio creado y editado por mi(BETA).
