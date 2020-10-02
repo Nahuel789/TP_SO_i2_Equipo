@@ -1,1 +1,5 @@
-
+Usuario:ALFA
+    -Nombre:Nahuel 
+    -Apellido:Carbajal
+    -IP (IPV4):192.168.0.68
+    -Hora:11.28
